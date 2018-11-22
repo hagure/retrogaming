@@ -1,48 +1,34 @@
+# 	Playing Vampire Savior in 2018 (VSAV)
+
+Welcome! If you're reading this I'm guessing you're interested in starting to play Vampire Savior. This document will help get you going with some kind of playable setup, with a focus on getting online play & training modes setup. 
+
+The VSAV community has an active online scene on multiple platforms, and is a great way to have fun, learn & compete with others around North America & abroad!
+
+One of the most common questions and issues that comes up for new players without access to a console is, "How do I set up a training mode?", which we'll go over here. In addition, we'll do a run down on every other console training mode & online play option available for Vampire Savior so you can pick the one that right for your needs.
+
+## 	Community Standards
+
+In the past few years, the North American Vampire Savior scene has started to standardize running their tournaments on actual CPS2 Arcade hardware. As such, the closest you can get to playing on this setup, the better. With that said, there are excellent options on both the console side—PS3 & XBOX 360's Dark Stalkers Ressurection, as well as great emulation solutions available for Desktop computers. Hell, there's even a decent way to run VSAV on a SNES mini!
+
+Generally, the "closest to arcade perfect" is thought of along the lines of:
+
+CPS2 >>> ShmupsMAME > Latest MAME RetroArch > DSR > FBA/FightCade > xxx ???
+
+Don't be discouraged though, online warriors! VSAV's online scene is quite active & competitive! If you live outside of a hotbed of VSAV action, then online play is a great way to find opponents, level up & have fun! We'll start off with desktop pc emulation, then discuss console and other ways to play.
+
+--- - --- - --- - --- - --- - --- - --- - ---
+
 # 	Playing on PC (Emulation)
 
 ## 	General PC/Emulation Info
 
-- Romsets
-	- vsav.zip
-	- qsound.zip
-- Training Mode Hacks
+To start off with, you'll generally need 4 things to get started with emulating CPS2 hardware to run VSAV for online & training play.
 
-One of the most common questions and issues that comes up for new players without access to a console is, "How do I set up a training mode?", which we'll go over here. In addition, we'll do a run down on every other console training mode option available for Vampire Savior so you can pick the one that right for your needs.
+1. An **Emulator** capable of stable CPS2 emulation
+2. The **"vsav.zip"** rom
+3. The **"qsound.zip"** rom
+4. **Training Mode Scripts/Hacks** for your emulator
 
-
-## 	Shmups MAME
-
-### Works On:
-- PC
-
-### ???
-
-## 	MAME-RR (v0139)
-
-### Works On:
-- PC
-
-MAME-RR is a powerful version of MAME that has extra debugging tools and allows for scripts (LUAs) to be ran. Though, we'll be using its abilities to create a Vampire Savior training mode on the PC.
-
-It isn't perfect though, as you can only run one LUA at a time, but utilizing the cheats in tandem lets you still accomplish many things.
-
-Below is a compiled .zip with Vampire Savior and MAME pre-configured with the correct settings and all the scripts in the right location. Just download it and you're good to go!
-
-**[MAME-RR Vampire Savior Training Pack](http://www.mediafire.com/download/sbaf4wb6apby3qf/MAME-RR_v0139_vsav_train.zip)**
-- MAME-RR v0139
-- Vampire Savior Training LUA by Jed Possum
-- Vampire Savior MAME Cheat File
-- Hitbox Viewer LUA by Dammit
-- Framedata Viewer LUA by Dammit
-- Properly configured MAME and Vampire Savior settings
-
-**Installation & Setup**
-1. Download and unzip the "MAME-RR Vampire Savior Training Pack"
-2. Get a copy of "vsav.zip" and place it in the "roms" folder located in the "MAME-RR v0139" folder.
-3. If you have an arcade stick, pad, hitbox or another controller device plug it in now, as it will not register if you plug it in after you launch MAME.
-4. Launch "mame.exe" and load "Vampire Savior: The Lord of Vampire (Euro 970519)"
-5. When the game starts, press the "Tab" button and navigate to "Input (this Game)" and bind your controls.
-6. MAME itself is now all set! Look under the sections below (Vampire Savior Training Mode, Hitbox Viewer and so on...) to see how to load the scripts and cheats.
 
 ## MAME
 
@@ -50,6 +36,44 @@ Below is a compiled .zip with Vampire Savior and MAME pre-configured with the co
 	- PC
 	- MacOS
     - Linux
+
+### 	MAME Installation & Setup
+
+#### 	PCs
+Shmups MAME
+MAME-RR
+
+#### 	Macs
+
+#####	MAME
+
+Here’s what you’ll need to download first:
+
+- [SDL](http://www.libsdl.org/download-2.0.php) (2.0.8 as of this writing)
+- [MAME](http://sdlmame.lngn.net) (0.198 as of this writing)[^1]
+
+##### MAME MACOS Installation
+
+1. Copy the SDL2.framework to /Library/Frameworks
+2. Move the “mame0198-64bit” folder to wherever you want to put it.
+3. Copy the path to the “mame64” executable. Note that if you change this location, you will also have to change it in your “.bash_profile” file Step X.
+4. Next, you’ll have to add this to your .bash_profile ```alias mame=“PATH/TO/mame64"```
+5. Now open up terminal, and type in ```mame``` after a loading screen, you should see something like this ![mame_startup]().
+6. Now, you’ll have to acquire the appropriate ROM files. Note that as MAME is updated, romsets are also updated (usually). Make sure that the romset you have matches the version of mame you are running. Most romsets for MAME can be found here on [archive.org](https://archive.org/details/messmame?sort=-publicdate)[^2]. For MAME 0.198, we can use the 0.184 through 0.197 romsets.
+7. First, create a few folders: "cheat", "roms". To get VSAV working, you’ll need to place these files into the "roms" folder: ??? new rom links
+	- [qsound.zip](https://www.emuparadise.me/M.A.M.E._-_Multiple_Arcade_Machine_Emulator_ROMs/Q-Sound/164687-download)
+	- [vsav.zip](https://www.emuparadise.me/M.A.M.E._-_Multiple_Arcade_Machine_Emulator_ROMs/Vampire_Savior:_The_Lord_of_Vampire_(Euro_970519)/17974)
+	- [vsavj.zip](https://www.emuparadise.me/M.A.M.E._-_Multiple_Arcade_Machine_Emulator_ROMs/Vampire_Savior:_The_Lord_of_Vampire_(Japan_970519)/17972) (optional)
+
+[^1]: I had trouble using v0181 & lua. v0198 worked fine though. I haven't tried v0203, current as of 2018-11-21.
+[^2]: Note that full romsets for MAME run at around 60GB. If you’re only in it for a handful of games, it might be better to find them somewhere else. Just make sure you have the right version!
+
+--- - --- - --- - --- - --- - --- - --- - ---
+
+
+
+	
+---
 
 # 	MAME Cheats
 ![Image](http://wiki.mizuumi.net/images/f/f7/Vsav-mame-rr-cheats.png)
@@ -85,6 +109,42 @@ Select Character		 | Selects any character, include test/hidden characters and O
  6. *Infinite Energy P1 & P2
  7. *Infinite Dark Force Time (Optional, depending on what you are testing.)
  8. At this point you are free to train!
+
+
+## 	Shmups MAME
+
+### Works On:
+- PC
+
+Shmups MAME is generally considered to be the closest match to Arcade perfect as far as emulation.
+
+## 	MAME-RR (v0139)
+
+### Works On:
+- PC
+
+MAME-RR is a powerful version of MAME that has extra debugging tools and allows for scripts (LUAs) to be ran. Though, we'll be using its abilities to create a Vampire Savior training mode on the PC.
+
+It isn't perfect though, as you can only run one LUA at a time, but utilizing the cheats in tandem lets you still accomplish many things.
+
+Below is a compiled .zip with Vampire Savior and MAME pre-configured with the correct settings and all the scripts in the right location. Just download it and you're good to go!
+
+**[MAME-RR Vampire Savior Training Pack](http://www.mediafire.com/download/sbaf4wb6apby3qf/MAME-RR_v0139_vsav_train.zip)**
+- MAME-RR v0139
+- Vampire Savior Training LUA by Jed Possum
+- Vampire Savior MAME Cheat File
+- Hitbox Viewer LUA by Dammit
+- Framedata Viewer LUA by Dammit
+- Properly configured MAME and Vampire Savior settings
+
+**Installation & Setup**
+1. Download and unzip the "MAME-RR Vampire Savior Training Pack"
+2. Get a copy of "vsav.zip" and place it in the "roms" folder located in the "MAME-RR v0139" folder.
+3. If you have an arcade stick, pad, hitbox or another controller device plug it in now, as it will not register if you plug it in after you launch MAME.
+4. Launch "mame.exe" and load "Vampire Savior: The Lord of Vampire (Euro 970519)"
+5. When the game starts, press the "Tab" button and navigate to "Input (this Game)" and bind your controls.
+6. MAME itself is now all set! Look under the sections below (Vampire Savior Training Mode, Hitbox Viewer and so on...) to see how to load the scripts and cheats.
+
 
 
 ## 	RetroArch
@@ -134,8 +194,7 @@ If you want to turn them off, load up the game and select "Misc > Enable Cheats"
 	2. Change the settings for Vampire Savior yourself (Set it to TURBO3 and FREE PLAY) by entering the CPS-2 menu (Press F2).
 7. Download the "FBA Vampire Savior Cheat File" from up above, and place it in your "GGPO-030\cheats" folder.
 8. You are now free to train!
-	- *If the game is displaying in wide screen (CPS-2 games should be displayed in 4:3), go to "Video > Monitor Properties" and select either "16:9" or "16:10", whichever aspect ratio your monitor has.
-
+	- If the game is displaying in wide screen (CPS-2 games should be displayed in 4:3), go to "Video > Monitor Properties" and select either "16:9" or "16:10", whichever aspect ratio your monitor has.
 
 
 # 	Vampire Savior Training Mode LUA Script
@@ -182,8 +241,6 @@ Projectile O.K.!	 | The green box below Player 1's lifebar is supposed to repres
 - It is possible to change the value at which life automatically recovers at.
 - Before starting I recommend creating a "save state", since as I said previously it is possible to kill your opponent still under certain conditions. To create a save state, hold "Shift" and press a key between "F3 to F11" (avoid F2 since it is the "Service Menu" button). Press whichever F-key, without holding Shift, to load the save state.
 
-
-
 # 	Hitbox Viewer LUA Script
 
 http://wiki.mizuumi.net/w/Vampire_Savior/Hitbox
@@ -194,7 +251,6 @@ http://wiki.mizuumi.net/w/Vampire_Savior/Hitbox
 One of most important training mode features missing when doing PC Emulation is the ability to make the opponent roll. If you're using an 8-button stick or controller, you can set one of the extra two buttons to [P2: Left + LP] and the second free button to [P2: Right + LP], then just mash one of them on knockdown to force the roll.
 
 To force the opponent to jump, I usually bind the Player 2 directionals to the arrow keys, and then jam a penny in hold down the jump button. That's not going to work on all keyboards though.
-
 
 
 ## 	FightCade
@@ -216,59 +272,59 @@ To force the opponent to jump, I usually bind the Player 2 directionals to the a
 
 # 	Playing on Consoles
 
-##	PS3/XBOX360
-- DSR
+##	PS3/XBOX360/PS4? Darkstalkers Resurrection (DSR)
 
-
-== Darkstalkers Resurrection (X360/PS3) ==
-![Image](http://wiki.mizuumi.net/w/File:Vsav_res_training_01.png)
+![Image](http://wiki.mizuumi.net/images/3/35/Vsav_res_training_01.png)
 The most accessible console training mode today, and one of the only good ones (along with Vampire, Darkstalkers Collection). 
 
 It's a feature heavy training mode with a lot of good sides. For one, changing training settings is a bit more snappy than the other versions, as you don't have to restart the round every time you change a setting. There is a decent Record/Replay function. It allows for in-match save states, so you can reload any specific point you want. There is an ''extremely'' detailed command list. You can also hold "Select" to control both Player 1 and Player 2 at the same time.
 
 As far as downsides go, is the Attack Data display is bugged, and does not properly show damage. If you need to check damage values, use Vampire Darkstalkers Collection. Also, depending on who you ask, the release has a ''slight'' bit of input lag, but most players would not notice it unless they are playing "link combo" heavy characters. Playing on a CRT may mitigate that problem though. It's also missing the valuable "random roll direction" on wakeup that was featured in Vampire Darkstalkers Collection.
 
-'''''Training Mode Functions Available'''''
-**How the SAVE STATE function works:**
+## How the ATTACK DATA Display is Bugged
+- ??? Anyone have the explanation?
+
+
+## DSR on PS4 Streaming Service
+- ??? Has anyone tried this?
+
+## DSR Training Mode Functions
+
+### How the SAVE STATE function works:
 1. Press "Start" + "Select" to create a new "Save State".
 2. Press "Start" + "Select" to load the "Save State".
 3. Hold down "Start" + "Select" for a few seconds to erase the "Save State" you just made.
 4. Press "Start" + "Select" to create a new "Save State".
 
-::Consider using up all of your "taunts" (There are 16 available for both characters per match) before using the Save State function as they tend to get in the way, and each time you load up a state you'll end up seeing the later half of a taunt. Also keep in mind that the Save State feels like it takes a couple frames to be created (at least to me) after pressing Start and Select.
+Consider using up all of your "taunts" (There are 16 available for both characters per match) before using the Save State function as they tend to get in the way, and each time you load up a state you'll end up seeing the later half of a taunt. Also keep in mind that the Save State feels like it takes a couple frames to be created (at least to me) after pressing Start and Select.
 
-**How the RECORD/REPLAY function works:**
+### How the RECORD/REPLAY function works:
 1. Press "Start" and select "RECORDING MODE".
 2. You will gain control of the "training dummy", and can perform as many actions as you'd like for as long as you'd like. Everything done during this time period is essentially a savestate replay.
 3. When finished, press "Start" and select "REPLAY". You have control of your original character and the dummy will replay all previous inputs. When it finishes everything recorded, you must press "Start" and once again select "REPLAY" for the dummy. 
 
-::It's a little troublesome to go back and select replay over and over, but the menus are quick. Keep in mind that since the replay is a savestate, it also records your original position, so you don't need to re-orient the dummy if they end up out of place... But this also comes with the problem that if you cross the opponent up, their directional inputs will be going the wrong direction. It's a bit different from most Record/Replay functions, and the lack of an auto-replay is annoying, but it does it does its job.
+It's a little troublesome to go back and select replay over and over, but the menus are quick. Keep in mind that since the replay is a savestate, it also records your original position, so you don't need to re-orient the dummy if they end up out of place... But this also comes with the problem that if you cross the opponent up, their directional inputs will be going the wrong direction. It's a bit different from most Record/Replay functions, and the lack of an auto-replay is annoying, but it does it does its job.
 
-**DUMMY SETTINGS**
-::![Image](http://wiki.mizuumi.net/w/File:Vsav_res_training_02.png)
-- '''DUMMY ACTION''': STANDING • CROUCHING • JUMPING • COM • HUMAN
-- '''DUMMY GUARD''': NONE • ALL • ALL (STANDING) • ALL (CROUCHING) • AUTO • AUTO (STANDING) • AUTO (CROUCHING)
-- '''DUMMY GRAB ESCAPE''': NONE • ALL • RANDOM
-- '''DUMMY TECH ROLL''': NONE • TOWARDS • AWAY
-- '''DUMMY ADV. GUARD''': NONE • ALL • RANDOM
+### DUMMY SETTINGS
+![Image](http://wiki.mizuumi.net/images/2/27/Vsav_res_training_02.png)
+- **DUMMY ACTION**: STANDING • CROUCHING • JUMPING • COM • HUMAN
+- **DUMMY GUARD**: NONE • ALL • ALL (STANDING) • ALL (CROUCHING) • AUTO • AUTO (STANDING) • AUTO (CROUCHING)
+- **DUMMY GRAB ESCAPE**: NONE • ALL • RANDOM
+- **DUMMY TECH ROLL**: NONE • TOWARDS • AWAY
+- **DUMMY ADV. GUARD**: NONE • ALL • RANDOM
 
-**TRAINING OPTIONS**
-::![Image](http://wiki.mizuumi.net/w/File:Vsav_res_training_03.png)
-- '''SP GAUGE''': INFINITE • NORMAL
-- '''DARKSTALKERS 3 TURBO SETTING''': NORMAL • TURBO 1 • TURBO 2 • TURBO 3 • TURBO 4 • TURBO 5 • TURBO 6
-- '''ATTACK DATA''': ON • OFF
-- '''KEY INPUT''': A(''Scrolling'') • B(''Light Up'') • Off
-- '''CPU DIFFICULTY''': 1 • 2 • 3 • 4 • 5 • 6 • 7 • 8 • 9
-- '''DARK FORCE''': NORMAL • INFINITE
-- '''GLOOMY PUPPET SHOW''': RANDOM • 1 • 2 • 3 • 4 • 5 • 6
+### TRAINING OPTIONS
+![Image](http://wiki.mizuumi.net/images/2/29/Vsav_res_training_03.png)
+- **SP GAUGE**: INFINITE • NORMAL
+- **DARKSTALKERS 3 TURBO SETTING**: NORMAL • TURBO 1 • TURBO 2 • TURBO 3 • TURBO 4 • TURBO 5 • TURBO 6
+- **ATTACK DATA**: ON • OFF
+- **KEY INPUT**: A(''Scrolling'') • B(''Light Up'') • Off
+- **CPU DIFFICULTY**: 1 • 2 • 3 • 4 • 5 • 6 • 7 • 8 • 9
+- **DARK FORCE**: NORMAL • INFINITE
+- **GLOOMY PUPPET SHOW**: RANDOM • 1 • 2 • 3 • 4 • 5 • 6
 
-**How the ATTACK DATA Display is Bugged**
+---
 
-
-
-
-## 	PS4
-- DSR*
 ## 	DC/PSP: Vampire Chronicle/Darkstalkers Chronicle: Chaos Tower
 ![Image](http://wiki.mizuumi.net/w/File:Vsav_dreamcast_training_01.png)
 WARNING: This game is based off of Vampire Savior 2, and even if you select "SAVIOR" mode for characters many things such as dash links, hops, air dashes will not function the same as they do in Vampire Savior! In addition, damage values are almost completely different! This is not at all arcade perfect!
@@ -278,13 +334,13 @@ So, while taking the many gameplay inconsistencies into account, the main use of
 The good thing about Vampire Chronicle emulates perfectly on nullDC, so for those training on a PC that want a record function it's great; as imperfect as it is.
 
 **TRAINING MENU**
-::![Image](http://wiki.mizuumi.net/w/File:Vsav_dreamcast_training_02.png)
-- '''ACTION''': STAND • CROUCH • JUMP • COM • RECORD • PLAY • HUMAN
-- '''S.S.GAUGE''': NORMAL • INFINITY
-- '''GUARD''': NORMAL • OFF • ALL
-- '''SPEED''': NORMAL • TURBO1 • TURBO2 • TURBO3
-- '''ATTACK DATA''': ON • OFF
-- '''COCKPIT'''(''Heath, Meter, Timer Display''): ON • OFF
+![Image](http://wiki.mizuumi.net/w/File:Vsav_dreamcast_training_02.png)
+- **ACTION**: STAND • CROUCH • JUMP • COM • RECORD • PLAY • HUMAN
+- **S.S.GAUGE**: NORMAL • INFINITY
+- **GUARD**: NORMAL • OFF • ALL
+- **SPEED**: NORMAL • TURBO1 • TURBO2 • TURBO3
+- **ATTACK DATA**: ON • OFF
+- **COCKPIT**(''Heath, Meter, Timer Display''): ON • OFF
 
 **How the Record/Playback function works:**
 . Go to training menu, switch "ACTION" to "RECORD" and then select "OK" at the bottom of the menu.
@@ -296,43 +352,45 @@ The good thing about Vampire Chronicle emulates perfectly on nullDC, so for thos
 - Dreamcast version emulates much better.
 - PSP version forces you to "RECORD" for the full 10 seconds. You can't just record for 1 second and then play that back, you must record for a full 10 seconds.
 
+---
+
 ## 	PS2: Vampire: Darkstalkers Collection
 
 ![Image](http://wiki.mizuumi.net/w/File:Vsav_ps2_training_01.png)
 A reliable and great version of the game for training mode. It is extremely feature heavy, having pretty much everything you could want besides a Record/Playback function.
 
 In terms of comparison to Darkstalkers Resurrection training mode, this is what Collection has to offer over it:
-*Attack Data display is not bugged like it is in Resurrection, and correctly displays damage.
-*"RANDOM ROLL" on knockdown for the dummy is 'extremely' useful for testing high level okizeme and training yourself to properly react to a roll. This is the only version of the game with that function.
-*Input lag free. Though this only applies to training mode. In versus matches there is extreme input lag due to an emulation problem(subsequently fixed in Street Fighter Alpha Anthology). Training mode is lag free though.
+- Attack Data display is not bugged like it is in Resurrection, and correctly displays damage.
+- "RANDOM ROLL" on knockdown for the dummy is 'extremely' useful for testing high level okizeme and training yourself to properly react to a roll. This is the only version of the game with that function.
+- Input lag free. Though this only applies to training mode. In versus matches there is extreme input lag due to an emulation problem(subsequently fixed in Street Fighter Alpha Anthology). Training mode is lag free though.
 
 The are several problems though. The game emulates extremely poorly, so you'll need a PS2 and a way of playing Japanese games. Also, the match must restart every time you change settings. A nice tip though is if you hold "Select" you can control both characters at the same time.
 
-'''''Training Settings'''''
+**''Training Settings''**
 **COMMAND LIST**
-::![Image](http://wiki.mizuumi.net/w/File:Vsav_ps2_training_02.png)
+![Image](http://wiki.mizuumi.net/w/File:Vsav_ps2_training_02.png)
 
 **TRAINING MENU**
-::![Image](http://wiki.mizuumi.net/w/File:Vsav_ps2_training_03.png)
-- '''SS GAUGE''': INFINITY • NORMAL
-- '''DARKFORCE''': NORMAL • INFINITY
-- '''TURBO SPEED''': NORMAL • TURBO1 • TURBO2 • TURBO3 • TURBO4 • TURBO5 • TURBO6
-- '''ATTACK DATA''': ON • OFF
-- '''KEY INPUT'''(''Input Display''): TYPE A • TYPE B • OFF
+![Image](http://wiki.mizuumi.net/w/File:Vsav_ps2_training_03.png)
+- **SS GAUGE**: INFINITY • NORMAL
+- **DARKFORCE**: NORMAL • INFINITY
+- **TURBO SPEED**: NORMAL • TURBO1 • TURBO2 • TURBO3 • TURBO4 • TURBO5 • TURBO6
+- **ATTACK DATA**: ON • OFF
+- **KEY INPUT**(''Input Display''): TYPE A • TYPE B • OFF
 
 **DUMMY SETTINGS**
-::![Image](http://wiki.mizuumi.net/w/File:Vsav_ps2_training_04.png)
-- '''ACTION''': STAND • CROUCH • JUMP • COM • HUMAN
-- '''GUARD''': NONE • ALL • ALL (STAND) • ALL (CROUCH) • AUTO • AUTO (STAND) • AUTO (CROUCH)
-- '''THROW ESCAPE''': NONE • ALL • RANDOM
-- '''STANDING''': NONE • FRONT • BACK • RANDOM
-- '''A. D. GUARD''': NONE • ALL • RANDOM
-- '''PUPPET SHOW'''(''Only shows if Lilith is Player 1''): RANDOM • No. 1 • No. 2 • No. 3 • No. 4 • No. 5 • No. 6
+![Image](http://wiki.mizuumi.net/w/File:Vsav_ps2_training_04.png)
+- **ACTION**: STAND • CROUCH • JUMP • COM • HUMAN
+- **GUARD**: NONE • ALL • ALL (STAND) • ALL (CROUCH) • AUTO • AUTO (STAND) • AUTO (CROUCH)
+- **THROW ESCAPE**: NONE • ALL • RANDOM
+- **STANDING**: NONE • FRONT • BACK • RANDOM
+- **A. D. GUARD**: NONE • ALL • RANDOM
+- **PUPPET SHOW**(''Only shows if Lilith is Player 1''): RANDOM • No. 1 • No. 2 • No. 3 • No. 4 • No. 5 • No. 6
 
 ## 	PS1: Darkstalkers 3 / Vampire Savior: EX Edition
 
 ![Image](http://wiki.mizuumi.net/w/File:Vsav_ps1_train_01.png)
-'''WARNING''': This is as far possible as arcade perfect you can get, besides maybe Vampire Chronicle. 
+**WARNING**: This is as far possible as arcade perfect you can get, besides maybe Vampire Chronicle. 
 
 A port with a couple interesting features, but ultimately useless as a training mode.
 
@@ -341,24 +399,20 @@ It has a special "black background" for training mode that is not any other vers
 Just like Vampire Chronicle, this game is missing a lot of useful options from its training mode. But, unlike that game, this version has no redeeming training value.
 
 **TRAINING MENU > NORMAL MODE'''(''Press Start, and then Select to access the Training Menu'')**
-::![Image](http://wiki.mizuumi.net/w/File:Vsav_ps1_train_02.png]] [[File:Vsav_ps1_train_03.png)
-- '''ACTION''': STAND • CROUCH • JUMP • CPU • HUMAN
-- '''SS GAUGE''': INFINITY • NORMAL
-- '''SPEED'''(''Make sure you set it to Turbo3 in the "OPTION MODE" first''): NORMAL • TURBO
-- '''CPU GUARD''': OFF • ON(''Auto Guard'')
-- '''SIGNAL''': OFF • AD GUARD • GUARD CANCEL • CHAIN COMBO
-- '''ATTACK DATA''': ON • OFF
-- '''HEX'''(''Grid Overlay across the entire screen''): OFF • HEX8 • HEX16 • HEX32
-- '''COCKPIT''': ON • OFF
-- '''INPUT CHECK''': ON • OFF
-- '''PUPPET SHOW''': OFF • NO.1 • NO.2 • NO.3 • NO.4 • NO.5 • NO.6
+![Image](http://wiki.mizuumi.net/w/File:Vsav_ps1_train_02.png]] [[File:Vsav_ps1_train_03.png)
+- **ACTION**: STAND • CROUCH • JUMP • CPU • HUMAN
+- **SS GAUGE**: INFINITY • NORMAL
+- **SPEED**(''Make sure you set it to Turbo3 in the "OPTION MODE" first''): NORMAL • TURBO
+- **CPU GUARD**: OFF • ON(''Auto Guard'')
+- **SIGNAL**: OFF • AD GUARD • GUARD CANCEL • CHAIN COMBO
+- **ATTACK DATA**: ON • OFF
+- **HEX**(''Grid Overlay across the entire screen''): OFF • HEX8 • HEX16 • HEX32
+- **COCKPIT**: ON • OFF
+- **INPUT CHECK**: ON • OFF
+- **PUPPET SHOW**: OFF • NO.1 • NO.2 • NO.3 • NO.4 • NO.5 • NO.6
 
 **TRAINING MENU > RECORDING MODE**
 :Despite the name, this is not a dummy Record/Playback function. You simply 'Record' yourself beating up the dummy, and then you can 'Replay' it. The dummy cannot even be set to human control in this mode. Its a very strange and seemingly useless feature.
-
-## 	PSP/Vita
-- Chaos Tower
-- 
 
 --- - --- - --- 
 
@@ -378,11 +432,13 @@ Just like Vampire Chronicle, this game is missing a lot of useful options from i
 
 ### 	Regions
 
-- Green
-- Blue
-- Orange
-- Yellow
-- Black
+- **Green**: Japan
+- **Blue**: US
+- Orange:
+- Yellow:
+- Black:
+
+Green & Blue A/B boards are compatible with each other. 
 
 ### Tournament Standard Configuration
 - English screenshots
