@@ -1,0 +1,6 @@
+# sample macro for autoit keysender script
+
+# 3 piece poke
+w100,U.w90,R1.w3,R1.w3,R1.w10,R1.w3,R1.W3,R1.w3,
+
+! end of script

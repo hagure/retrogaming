@@ -1,0 +1,29 @@
+vampire savior tutorial exercises
+
+Inlcuded cheats to folder.  Its vsav.  Simply stick the file into your GGPO cheats folder and it will give you the ability to access it offline in the FBA ggpo uses.  To enable cheats open up the ggpo game, then click misc>cheats then select which cheats you want.
+
+- included .fr playbacks of myself using the training function to practice to prevent confusion.
+- added 2 new training exercises, chicken_guard_full_block and reversal_training
+
+!!!!!!!!!!IMPORTANT NOTE!!!!! READ!!!!!!!!!!!!!
+if you don't set up 2 player keyboard to these inputs it will not work properly.
+
+lp,mp,fp = asd
+lk,mk,rh = zxc
+udlr     = arrow keys
+
+-----------------
+
+how to use this program
+
+auto macro 1.06 will basically take control of the 2 player function in the game.  With the vampire savior cheats enabled and 2p set to a keyboard, the human player can control player 1 and the automacro program will control player 2 to create practice drills
+
+1. open up the macro program
+2. locate and click the browse button
+3. select exercises folder.  Make sure its pointed to the macro folder.
+4. After selecting your exercise, make sure the loop boxed is checked.  If not checked, it will only perform the exercise a single time.
+5.  Now that the program is loaded up, open up the FBA that comes with GGPO and load up a game with the cheats enabled and make sure 2p is a keyboard setup.
+****vital that you make sure human is player 1 and auto macro will take advantage of player 2 automatically.***
+6. FBA and auto macro should both be opened and auto macro should be loaded with the practice scenario you want to go for.  This is last step, in your FBA window as the game is playing, hit ctrl+p to start the exercise and simply hit ctril+p again to stop it.  
+
+Automacro allows you to load a new exercise on the spot so once you get it going its very easy to practice different things.

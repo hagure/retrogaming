@@ -1,0 +1,7 @@
+# sample macro for autoit keysender script
+
+# chickenguard - jump block
+w100,D.w5.D.w20,U.(w1,DR.)60
+
+! end o script
+

@@ -1,0 +1,6 @@
+# sample macro for autoit keysender script
+
+# 2 piece
+w100,U.w40,D4.w7,D5.
+
+! end of script
