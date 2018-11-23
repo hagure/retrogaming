@@ -257,6 +257,8 @@ To force the opponent to jump, I usually bind the Player 2 directionals to the a
 
 ### FightCade 1
 - Most popular form of online play
+- Macs take a long time to start games
+- Macs cannot see in-game chat
  
 ### FightCade 2
 - Development on Hold
