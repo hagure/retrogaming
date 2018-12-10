@@ -1,18 +1,22 @@
 # About
 
-This document just lists the general* dimensions for various retrogaming & streaming equipment. This can be used as a reference to create protective packaging or for cutting for used in professional gear equipment boxes (pelican, etc.)
+This document just lists the general* dimensions for various retrogaming & streaming equipment. This can be used as a reference to create protective packaging or for cutting for used in professional gear equipment boxes (pelican, etc.). Measurements shown in Length x Width x Height order.
 
 --- - --- - --- 
 
 # 	OSSC
 
 ## 	OSSC
+- Dimensions: 5-3/16 x 3-1/16 x 1-9/16
+- Notes: Includes feet, switch & ports
 
 ## 	OSSC Remote
 
 # 	PVM
 
 # 	gscartsw
+- Dimensions: 10-1/2 x 5-1/8 x 1-1/2
+- Weight: 1lb, 5oz
 
 # 	HAS Supergun
 
@@ -39,4 +43,4 @@ This document just lists the general* dimensions for various retrogaming & strea
 
 --- - --- - --- - --- - --- - --- - --- - ---
 
-* : Since this started out strictly as a guide for cutting foam, *exact* dimensions accounting for relatively small angles, curves & indentations aren't listed
+* : Since this started out strictly as a guide for cutting foam, *exact* dimensions accounting for some relatively small angles, curves & indentations aren't listed
