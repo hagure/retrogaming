@@ -146,7 +146,6 @@ Below is a compiled .zip with Vampire Savior and MAME pre-configured with the co
 6. MAME itself is now all set! Look under the sections below (Vampire Savior Training Mode, Hitbox Viewer and so on...) to see how to load the scripts and cheats.
 
 
-
 ## 	RetroArch
 
 ### Works On:
@@ -478,6 +477,7 @@ Green & Blue A/B boards are compatible with each other.
 ###	[Sentinel](https://www.arcade-projects.com/forums/index.php?thread/5942-sentinel-supergun-prototype/)
 ###	Jasen
 ###	Retroelectronik
+### [Parsec](https://www.tindie.com/products/low_budget/parsec-supergun-v10/)
 ### UD-CPS2
 - [Upcoming DIY Kit](https://www.arcade-projects.com/forums/index.php?thread/3272-diy-ud-cps2-kit/)
 
