@@ -45,8 +45,6 @@ MAME-RR
 
 #### 	Macs
 
-#####	MAME
-
 Here’s what you’ll need to download first:
 
 - [SDL](http://www.libsdl.org/download-2.0.php) (2.0.8 as of this writing)
@@ -69,11 +67,6 @@ Here’s what you’ll need to download first:
 [^2]: Note that full romsets for MAME run at around 60GB. If you’re only in it for a handful of games, it might be better to find them somewhere else. Just make sure you have the right version!
 
 --- - --- - --- - --- - --- - --- - --- - ---
-
-
-
-	
----
 
 # 	MAME Cheats
 ![Image](http://wiki.mizuumi.net/images/f/f7/Vsav-mame-rr-cheats.png)
@@ -109,7 +102,6 @@ Select Character		 | Selects any character, include test/hidden characters and O
  6. *Infinite Energy P1 & P2
  7. *Infinite Dark Force Time (Optional, depending on what you are testing.)
  8. At this point you are free to train!
-
 
 ## 	Shmups MAME
 
