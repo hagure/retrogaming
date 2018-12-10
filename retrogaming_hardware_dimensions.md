@@ -22,6 +22,7 @@ This document just lists the general* dimensions for various retrogaming & strea
 # 	gscartsw
 - Dimensions: 10-1/2 x 5-1/8 x 1-1/2
 - Weight: 1lb, 5oz
+<<<<<<< HEAD
 
 # 	Superguns
 
@@ -46,7 +47,6 @@ This document just lists the general* dimensions for various retrogaming & strea
 ## 	SNES
 
 ## 	SNES Classic
-
 
 --- - --- - --- - --- - --- - --- - --- - ---
 
