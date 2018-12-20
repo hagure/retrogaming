@@ -55,8 +55,8 @@ Here’s what you’ll need to download first:
 1. Copy the SDL2.framework to /Library/Frameworks
 2. Move the “mame0198-64bit” folder to wherever you want to put it.
 3. Copy the path to the “mame64” executable. Note that if you change this location, you will also have to change it in your “.bash_profile” file Step X.
-4. Next, you’ll have to add this to your .bash_profile ```alias mame=“PATH/TO/mame64"```
-5. Now open up terminal, and type in ```mame``` after a loading screen, you should see something like this ![mame_startup]().
+4. Next, you’ll have to add this to your .bash_profile alias mame=“PATH/TO/mame64"
+5. Now open up terminal, and type in mame after a loading screen, you should see something like this ![mame_startup]().
 6. Now, you’ll have to acquire the appropriate ROM files. Note that as MAME is updated, romsets are also updated (usually). Make sure that the romset you have matches the version of mame you are running. Most romsets for MAME can be found here on [archive.org](https://archive.org/details/messmame?sort=-publicdate)[^2]. For MAME 0.198, we can use the 0.184 through 0.197 romsets.
 7. First, create a few folders: "cheat", "roms". To get VSAV working, you’ll need to place these files into the "roms" folder: ??? new rom links
 	- [qsound.zip](https://www.emuparadise.me/M.A.M.E._-_Multiple_Arcade_Machine_Emulator_ROMs/Q-Sound/164687-download)
