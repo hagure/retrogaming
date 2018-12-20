@@ -45,8 +45,6 @@ MAME-RR
 
 #### 	Macs
 
-#####	MAME
-
 Here’s what you’ll need to download first:
 
 - [SDL](http://www.libsdl.org/download-2.0.php) (2.0.8 as of this writing)
@@ -69,11 +67,6 @@ Here’s what you’ll need to download first:
 [^2]: Note that full romsets for MAME run at around 60GB. If you’re only in it for a handful of games, it might be better to find them somewhere else. Just make sure you have the right version!
 
 --- - --- - --- - --- - --- - --- - --- - ---
-
-
-
-	
----
 
 # 	MAME Cheats
 ![Image](http://wiki.mizuumi.net/images/f/f7/Vsav-mame-rr-cheats.png)
@@ -110,7 +103,6 @@ Select Character		 | Selects any character, include test/hidden characters and O
  7. *Infinite Dark Force Time (Optional, depending on what you are testing.)
  8. At this point you are free to train!
 
-
 ## 	Shmups MAME
 
 ### Works On:
@@ -144,7 +136,6 @@ Below is a compiled .zip with Vampire Savior and MAME pre-configured with the co
 4. Launch "mame.exe" and load "Vampire Savior: The Lord of Vampire (Euro 970519)"
 5. When the game starts, press the "Tab" button and navigate to "Input (this Game)" and bind your controls.
 6. MAME itself is now all set! Look under the sections below (Vampire Savior Training Mode, Hitbox Viewer and so on...) to see how to load the scripts and cheats.
-
 
 
 ## 	RetroArch
@@ -480,6 +471,7 @@ Green & Blue A/B boards are compatible with each other.
 ###	[Sentinel](https://www.arcade-projects.com/forums/index.php?thread/5942-sentinel-supergun-prototype/)
 ###	Jasen
 ###	Retroelectronik
+### [Parsec](https://www.tindie.com/products/low_budget/parsec-supergun-v10/)
 ### UD-CPS2
 - [Upcoming DIY Kit](https://www.arcade-projects.com/forums/index.php?thread/3272-diy-ud-cps2-kit/)
 
