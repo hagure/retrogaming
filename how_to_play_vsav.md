@@ -1,8 +1,51 @@
+# 	Note
+
+This is still quite a work-in-progress. As such, many things are still missing or incomplete. Please Understand!
+
+# 	Changelog
+- 2019-08-24: Added info about community & learning resources
+
+# 	Todo List
+- Add info for JP,EU,SA communities
+- Finish PC training mode info
+- Add resource links from VSAV Discord
+
+
+---
+
+
+
 # 	Playing Vampire Savior in 2018 (VSAV)
 
-Welcome! If you're reading this I'm guessing you're interested in starting to play Vampire Savior. This document will help get you going with some kind of playable setup, with a focus on getting online play & training modes setup. 
+Welcome! If you're reading this I'm guessing you're interested in starting to play Vampire Savior. This document will help get you going with some kind of playable setup, with a focus on getting online play & training modes setup. Hopefully this document will help you out on your journey, whether you're just picking the game up, or have been one-hit teching for years & wanna get an arcade setup yourself. We'll go over how to get your hardware setup to play, getting training modes set up & where to learn more about the game/community. We *won't* be going  gameplay specific stuff, but will guide you to where you can learn more. But first up, let's talk about the VSAV community.
 
-The VSAV community has an active online scene on multiple platforms, and is a great way to have fun, learn & compete with others around North America & abroad!
+# 	VSAV Communities
+
+## 	Online
+
+First off, let's start with the online communities for VSAV, with a focus on English speaking groups. The VSAV community has an active online scene on multiple platforms, and is a great way to have fun, learn & compete with others around North America & abroad!
+
+
+- [VSAV Discord](https://discord.gg/fdj5xA3)
+- [VSAV Facebook Group](https://www.facebook.com/groups/vampiresavior/)
+
+- [VSAV Dustloop Forum](http://www.dustloop.com/forums/index.php?/forums/forum/154-vampire-savior/)
+
+## 	North America
+
+(This is the scene the author is most familiar with, so most of the info is here. )
+
+## 	Japan
+
+## 	Europe
+
+## 	South America
+
+--- - --- - --- - --- - --- - --- - --- - ---
+
+# 	How to get set up to play VSAV
+
+While most modern day VSAV tournaments are run on arcade hardware, there are still many ways to play & train without needing to go through the trouble & expense of having your own arcade system. In this section, we'll go through how you can get setup to play, as well as different hardware specific information for training modes & online play.
 
 One of the most common questions and issues that comes up for new players without access to a console is, "How do I set up a training mode?", which we'll go over here. In addition, we'll do a run down on every other console training mode & online play option available for Vampire Savior so you can pick the one that right for your needs.
 
@@ -243,6 +286,9 @@ One of most important training mode features missing when doing PC Emulation is 
 
 To force the opponent to jump, I usually bind the Player 2 directionals to the arrow keys, and then jam a penny in hold down the jump button. That's not going to work on all keyboards though.
 
+## Practicing Defensive Options
+
+- Set 2p side to Morrigan & do ES Fireball (236+PP)
 
 ## 	FightCade
 
@@ -407,6 +453,10 @@ Just like Vampire Chronicle, this game is missing a lot of useful options from i
 **TRAINING MENU > RECORDING MODE**
 :Despite the name, this is not a dummy Record/Playback function. You simply 'Record' yourself beating up the dummy, and then you can 'Replay' it. The dummy cannot even be set to human control in this mode. Its a very strange and seemingly useless feature.
 
+## 	PSP/Vita
+- Chaos Tower
+- 
+
 --- - --- - --- 
 
 # 	Playing on Arcade
@@ -475,6 +525,8 @@ Green & Blue A/B boards are compatible with each other.
 ### UD-CPS2
 - [Upcoming DIY Kit](https://www.arcade-projects.com/forums/index.php?thread/3272-diy-ud-cps2-kit/)
 
+- Odd behavior with Brook Audio Boards. Sticks plugged in after the Brook audio board and the ports won't work. (Makai2018)
+
 ---
 
 ## Arcade Info
@@ -501,3 +553,12 @@ Green & Blue A/B boards are compatible with each other.
 - Focus Attack
 - Arcade Shock
 - RGB Stuff
+
+---
+
+# 	Where to learn more?
+
+- [VSAV Mizuumi Wiki](http://wiki.mizuumi.net/w/Vampire_Savior/)
+	The best English resource for VSAV information. 
+- [VSAV Video Dustloop Thread](http://www.dustloop.com/forums/index.php?/forums/topic/3570-vs-video-thread/)
+	This is a great resource for finding match footage of VSAV. It is updated monthly, and collects a lot of the month's VSAV footage in one place.
