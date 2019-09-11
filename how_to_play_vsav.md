@@ -301,6 +301,13 @@ To force the opponent to jump, I usually bind the Player 2 directionals to the a
 - Development on Hold
 - Currently not used
 
+### FightCade Tips & Tricks
+- Sticks must be plugged in *first* before opening FightCade or they will not be recognized.
+- Headphones alert: Beware the FightCade Buzz!
+- Macs take a long time to start games.
+- Mac users cannot see in-game chat; Make sure to keep an eye out in the lobby chat.
+
+
 ## Emulation on non-PC Hardware
 - SNES mini
 - RasPi
